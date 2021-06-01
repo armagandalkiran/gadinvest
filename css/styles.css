@@ -1,0 +1,169 @@
+
+body{
+  font-family:  'Montserrat', sans-serif;
+  text-align: center;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*Download Buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.col-lg-6 .fab{
+  margin-right: 5px;
+}
+/*title*/
+#title {
+  background-color: #EA1E30;
+  text-align:left;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/*title image */
+
+.title-image{
+  position: absolute;
+      width: 40%;
+      transform: rotate(25deg);
+      padding: 2% 2%;
+      right: 170px;
+}
+
+/* features */
+
+#features{
+  background-color: white;
+  position: relative;
+  padding: 7% 15%;
+}
+.feature-box{
+  padding: 5%;
+}
+
+
+.feature-box .icon{
+  padding-bottom: 10%;
+  color: #ef8172;
+}
+.feature-box .icon:hover{
+  cursor: pointer;
+  transition: 0.4s;
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 100%;
+  }
+}
+
+/* cta part */
+#cta {
+  background-color: #EA1E30;
+  padding: 0 12% 6%;
+}
+#cta h3 {
+  padding: 6% 0;
+  color: white;
+  font-size: 60px;
+}
+.cta-button{
+  margin: 5% 3% 5% 0;
+}
+.cta-button .fab{
+  margin-right: 5px;
+}
+
+/* footer */
+
+#footer {
+  padding: 3% 0;
+}
+#footer .fab {
+  margin: 5px 10px;
+}
+#footer .fas {
+  margin: 5px 10px;
+}
+#footer p {
+  padding: 1% 0;
+}
